@@ -21,6 +21,9 @@
 {
     // Override point for customization after application launch.
     // Add the split view controller's view to the window and display.
+    
+    //pyanfield : here is the different code , in the book , the code as below
+    //[self.window addSubview:splitViewController.view];
     self.window.rootViewController = self.splitViewController;
     [self.window makeKeyAndVisible];
     return YES;

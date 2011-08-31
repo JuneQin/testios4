@@ -6,8 +6,16 @@
 //  Copyright 2011年 __MyCompanyName__. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "SecondLevelViewController.h"
 
-@interface MoveMeController : NSObject
+@interface MoveMeController : SecondLevelViewController
+{
+    NSMutableArray *list;
+}
+
+@property (nonatomic, retain) NSMutableArray *list;
+
+- (IBAction)toggleMove;
 
 @end

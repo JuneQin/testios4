@@ -8,6 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SlowWorkerViewController : UIViewController
+@interface SlowWorkerViewController : UIViewController {
+    UIButton *startButton;
+    UITextView *resultsTextView;
+    UIActivityIndicatorView *spinner;
+}
+
+@property (nonatomic, retain) IBOutlet UIButton *startButton;
+@property (nonatomic, retain) IBOutlet UITextView *resultsTextView;
+@property (nonatomic, retain) IBOutlet UIActivityIndicatorView *spinner;
+
+- (IBAction)doWork:(id)sender;
 
 @end

@@ -9,11 +9,18 @@
 #import "DetailViewController.h"
 
 #import "RootViewController.h"
+#import "LanguageListController.h"
 
+
+//pyanfield : Creating a class extension lets you define some methods and properties that are going to be used within your class but that you don’t want to expose to other classes in a header file.
 @interface DetailViewController ()
+// make use of the instance variable we decleared earlier
 @property (nonatomic, retain) UIPopoverController *popoverController;
+//will called when we need to  update the display
 - (void)configureView;
 @end
+
+//**********************************************************************//
 
 @implementation DetailViewController
 
@@ -21,6 +28,25 @@
 @synthesize detailItem = _detailItem;
 @synthesize detailDescriptionLabel = _detailDescriptionLabel;
 @synthesize popoverController = _myPopoverController;
+@synthesize webView = _webView;
+@synthesize languageButton,languageString,languagePopoverController;
+
+//pyanfield 
+//Why make that a function instead of a method? p365
+static NSString * modifyUrlForLanguage(NSString *url,NSString *lang)
+{
+    if (!lang) {
+        return url;
+    }
+    
+    NSRange languageCodeRange = NSMakeRange(7, 2);
+    if ([[url substringWithRange:languageCodeRange] isEqualToString:lang]) {
+        return url;
+    } else {
+        NSString *newUrl = [url stringByReplacingCharactersInRange:languageCodeRange withString:lang];
+        return newUrl;
+    }
+}
 
 #pragma mark - Managing the detail item
 
@@ -33,18 +59,28 @@
         [_detailItem release];
         _detailItem = [newDetailItem retain];
         
+        _detailItem = [modifyUrlForLanguage(newDetailItem, languageString) retain];
+        
         // Update the view.
         [self configureView];
     }
 
     if (self.popoverController != nil) {
         [self.popoverController dismissPopoverAnimated:YES];
-    }        
+    }       
+    if (self.languagePopoverController != nil) {
+        [self.languagePopoverController dismissPopoverAnimated:YES];
+    }
 }
 
 - (void)configureView
 {
     // Update the user interface for the detail item.
+    
+    //pyanfield
+    NSURL *url = [NSURL URLWithString:_detailItem];
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    [self.webView loadRequest:request];
 
     self.detailDescriptionLabel.text = [self.detailItem description];
 }
@@ -75,9 +111,12 @@
 
 #pragma mark - Split view support
 
+
+//pyanfield :  It’s called when the split view controller is no longer going to show the left side of the split view as a permanent fixture (that is, when the iPad is rotated to portrait orientation). 
 - (void)splitViewController:(UISplitViewController *)svc willHideViewController:(UIViewController *)aViewController withBarButtonItem:(UIBarButtonItem *)barButtonItem forPopoverController: (UIPopoverController *)pc
 {
-    barButtonItem.title = @"Events";
+    //barButtonItem.title = @"Events";
+    barButtonItem.title = @"Presidents";
     NSMutableArray *items = [[self.toolbar items] mutableCopy];
     [items insertObject:barButtonItem atIndex:0];
     [self.toolbar setItems:items animated:YES];
@@ -110,6 +149,10 @@
 	// Release any retained subviews of the main view.
 	// e.g. self.myOutlet = nil;
 	self.popoverController = nil;
+    self.webView = nil;
+    self.languageButton = nil;
+    self.languagePopoverController = nil;
+    
 }
 
 #pragma mark - Memory management
@@ -128,7 +171,30 @@
     [_toolbar release];
     [_detailItem release];
     [_detailDescriptionLabel release];
+    [_webView release];
+    [languageButton release];
+    [languagePopoverController release];
     [super dealloc];
 }
 
+
+- (void)setLanguageString:(NSString *)newString
+{
+    if (![newString isEqualToString:languageString]) {
+        [languageString release];
+        languageString = [newString copy];
+        self.detailItem = modifyUrlForLanguage(_detailItem, languageString);
+    }
+}
+
+- (IBAction)touchLanguageButton
+{
+    LanguageListController *languageListController = [[LanguageListController alloc] init];
+    languageListController.detailViewController = self;
+    UIPopoverController *poc = [[UIPopoverController alloc] initWithContentViewController:languageListController];
+    [poc presentPopoverFromBarButtonItem:languageButton permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
+    self.languagePopoverController = poc;
+    [poc release];
+    [languageListController release];
+}
 @end

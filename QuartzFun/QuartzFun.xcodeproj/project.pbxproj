@@ -16,6 +16,9 @@
 		9058556B140A6AF70076B73B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90585569140A6AF70076B73B /* MainWindow.xib */; };
 		9058556E140A6AF70076B73B /* QuartzFunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9058556D140A6AF70076B73B /* QuartzFunViewController.m */; };
 		90585571140A6AF70076B73B /* QuartzFunViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9058556F140A6AF70076B73B /* QuartzFunViewController.xib */; };
+		90585579140A6B3A0076B73B /* QuartzFunView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90585578140A6B3A0076B73B /* QuartzFunView.m */; };
+		9058557D140A6BB90076B73B /* UIColor-Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 9058557C140A6BB90076B73B /* UIColor-Random.m */; };
+		908CAE27140BE20E00A23B5E /* iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 908CAE26140BE20E00A23B5E /* iphone.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +26,22 @@
 		90585557140A6AF70076B73B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		90585559140A6AF70076B73B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9058555B140A6AF70076B73B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9058555F140A6AF70076B73B /* QuartzFun-Info.plist */ = {isa = PBXFileReference; path = "QuartzFun-Info.plist"; sourceTree = "<group>"; };
+		9058555F140A6AF70076B73B /* QuartzFun-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuartzFun-Info.plist"; sourceTree = "<group>"; };
 		90585561140A6AF70076B73B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		90585563140A6AF70076B73B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		90585565140A6AF70076B73B /* QuartzFun-Prefix.pch */ = {isa = PBXFileReference; path = "QuartzFun-Prefix.pch"; sourceTree = "<group>"; };
-		90585566140A6AF70076B73B /* QuartzFunAppDelegate.h */ = {isa = PBXFileReference; path = QuartzFunAppDelegate.h; sourceTree = "<group>"; };
+		90585565140A6AF70076B73B /* QuartzFun-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuartzFun-Prefix.pch"; sourceTree = "<group>"; };
+		90585566140A6AF70076B73B /* QuartzFunAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzFunAppDelegate.h; sourceTree = "<group>"; };
 		90585567140A6AF70076B73B /* QuartzFunAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuartzFunAppDelegate.m; sourceTree = "<group>"; };
 		9058556A140A6AF70076B73B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		9058556C140A6AF70076B73B /* QuartzFunViewController.h */ = {isa = PBXFileReference; path = QuartzFunViewController.h; sourceTree = "<group>"; };
+		9058556C140A6AF70076B73B /* QuartzFunViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzFunViewController.h; sourceTree = "<group>"; };
 		9058556D140A6AF70076B73B /* QuartzFunViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuartzFunViewController.m; sourceTree = "<group>"; };
 		90585570140A6AF70076B73B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/QuartzFunViewController.xib; sourceTree = "<group>"; };
+		90585577140A6B3A0076B73B /* QuartzFunView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzFunView.h; sourceTree = "<group>"; };
+		90585578140A6B3A0076B73B /* QuartzFunView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzFunView.m; sourceTree = "<group>"; };
+		9058557A140A6B790076B73B /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		9058557B140A6BB90076B73B /* UIColor-Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor-Random.h"; sourceTree = "<group>"; };
+		9058557C140A6BB90076B73B /* UIColor-Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor-Random.m"; sourceTree = "<group>"; };
+		908CAE26140BE20E00A23B5E /* iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iphone.png; path = "../../../../Downloads/Begin_iPhone4_Projects_2011_01_21/14 - QuartzFun/iphone.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +95,11 @@
 				9058556D140A6AF70076B73B /* QuartzFunViewController.m */,
 				9058556F140A6AF70076B73B /* QuartzFunViewController.xib */,
 				9058555E140A6AF70076B73B /* Supporting Files */,
+				90585577140A6B3A0076B73B /* QuartzFunView.h */,
+				90585578140A6B3A0076B73B /* QuartzFunView.m */,
+				9058557A140A6B790076B73B /* Constants.h */,
+				9058557B140A6BB90076B73B /* UIColor-Random.h */,
+				9058557C140A6BB90076B73B /* UIColor-Random.m */,
 			);
 			path = QuartzFun;
 			sourceTree = "<group>";
@@ -95,6 +109,7 @@
 			children = (
 				9058555F140A6AF70076B73B /* QuartzFun-Info.plist */,
 				90585560140A6AF70076B73B /* InfoPlist.strings */,
+				908CAE26140BE20E00A23B5E /* iphone.png */,
 				90585563140A6AF70076B73B /* main.m */,
 				90585565140A6AF70076B73B /* QuartzFun-Prefix.pch */,
 			);
@@ -151,6 +166,7 @@
 				90585562140A6AF70076B73B /* InfoPlist.strings in Resources */,
 				9058556B140A6AF70076B73B /* MainWindow.xib in Resources */,
 				90585571140A6AF70076B73B /* QuartzFunViewController.xib in Resources */,
+				908CAE27140BE20E00A23B5E /* iphone.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +180,8 @@
 				90585564140A6AF70076B73B /* main.m in Sources */,
 				90585568140A6AF70076B73B /* QuartzFunAppDelegate.m in Sources */,
 				9058556E140A6AF70076B73B /* QuartzFunViewController.m in Sources */,
+				90585579140A6B3A0076B73B /* QuartzFunView.m in Sources */,
+				9058557D140A6BB90076B73B /* UIColor-Random.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +299,7 @@
 				90585576140A6AF70076B73B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

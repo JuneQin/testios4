@@ -10,13 +10,43 @@
 
 @implementation President
 
-- (id)init
+@synthesize number;
+@synthesize name;
+@synthesize fromYear;
+@synthesize toYear;
+@synthesize party;
+
+- (void)dealloc{
+    [name release];
+    [fromYear release];
+    [toYear release];
+    [party release];
+    [super dealloc];
+}
+
+#pragma mark -
+#pragma mark NSCoding
+
+// pyanfield : encodes our object to be saved
+- (void)encodeWithCoder:(NSCoder *)aCoder
 {
-    self = [super init];
-    if (self) {
-        // Initialization code here.
+    [aCoder encodeInt:self.number forKey:kPresidentNumberKey];
+    [aCoder encodeObject:self.name forKey:kPresidentNameKey];
+    [aCoder encodeObject:self.fromYear forKey:kPresidentFromKey];
+    [aCoder encodeObject:self.toYear forKey:kPresidentToKey];
+    [aCoder encodeObject:self.party forKey:kPresidentPartyKey];
+}
+
+// pyanfield : used to create new objects from the saved file
+- (id)initWithCoder:(NSCoder *)aDecoder
+{
+    if (self = [super init]) {
+        number = [aDecoder decodeIntForKey:kPresidentNumberKey];
+        name = [aDecoder decodeObjectForKey:kPresidentNameKey];
+        fromYear = [aDecoder decodeObjectForKey:kPresidentFromKey];
+        toYear = [aDecoder decodeObjectForKey:kPresidentToKey];
+        party = [aDecoder decodeObjectForKey:kPresidentPartyKey];
     }
-    
     return self;
 }
 

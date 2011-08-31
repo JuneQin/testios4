@@ -8,16 +8,22 @@
 
 #import "UIColor-Random.h"
 
-@implementation UIColor_Random
+// this can be reused by other ios app
+@implementation UIColor (Random)
 
-- (id)init
++ (UIColor *)randomColor
 {
-    self = [super init];
-    if (self) {
-        // Initialization code here.
+    static BOOL seeded = NO;
+    if (!seeded) {
+        seeded = YES;
+        srandom(time(NULL));
     }
+    //generate three random CGFloats with a value between 0.0 and 1.0
+    CGFloat red = (CGFloat)random()/(CGFloat)RAND_MAX;
+    CGFloat blue = (CGFloat)random()/(CGFloat)RAND_MAX;
+    CGFloat green = (CGFloat)random()/(CGFloat)RAND_MAX;
     
-    return self;
+    return [UIColor colorWithRed:red green:green blue:blue alpha:1.0f];
 }
 
 @end

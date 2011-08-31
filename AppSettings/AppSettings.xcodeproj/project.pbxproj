@@ -18,6 +18,10 @@
 		908DF8E813F2C2D900C3AF24 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 908DF8E713F2C2D900C3AF24 /* MainView.xib */; };
 		908DF8EB13F2C2D900C3AF24 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 908DF8EA13F2C2D900C3AF24 /* FlipsideViewController.m */; };
 		908DF8ED13F2C2D900C3AF24 /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 908DF8EC13F2C2D900C3AF24 /* FlipsideView.xib */; };
+		908DF8F813F2C4FC00C3AF24 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 908DF8F713F2C4FC00C3AF24 /* Settings.bundle */; };
+		908DF8FC13F2CC8200C3AF24 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 908DF8F913F2CC8200C3AF24 /* icon.png */; };
+		908DF8FD13F2CC8200C3AF24 /* rabbit.png in Resources */ = {isa = PBXBuildFile; fileRef = 908DF8FA13F2CC8200C3AF24 /* rabbit.png */; };
+		908DF8FE13F2CC8200C3AF24 /* turtle.png in Resources */ = {isa = PBXBuildFile; fileRef = 908DF8FB13F2CC8200C3AF24 /* turtle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,19 +29,23 @@
 		908DF8CF13F2C2D900C3AF24 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		908DF8D113F2C2D900C3AF24 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		908DF8D313F2C2D900C3AF24 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		908DF8D713F2C2D900C3AF24 /* AppSettings-Info.plist */ = {isa = PBXFileReference; path = "AppSettings-Info.plist"; sourceTree = "<group>"; };
+		908DF8D713F2C2D900C3AF24 /* AppSettings-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppSettings-Info.plist"; sourceTree = "<group>"; };
 		908DF8D913F2C2D900C3AF24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		908DF8DB13F2C2D900C3AF24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		908DF8DD13F2C2D900C3AF24 /* AppSettings-Prefix.pch */ = {isa = PBXFileReference; path = "AppSettings-Prefix.pch"; sourceTree = "<group>"; };
-		908DF8DE13F2C2D900C3AF24 /* AppSettingsAppDelegate.h */ = {isa = PBXFileReference; path = AppSettingsAppDelegate.h; sourceTree = "<group>"; };
+		908DF8DD13F2C2D900C3AF24 /* AppSettings-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppSettings-Prefix.pch"; sourceTree = "<group>"; };
+		908DF8DE13F2C2D900C3AF24 /* AppSettingsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppSettingsAppDelegate.h; sourceTree = "<group>"; };
 		908DF8DF13F2C2D900C3AF24 /* AppSettingsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppSettingsAppDelegate.m; sourceTree = "<group>"; };
 		908DF8E213F2C2D900C3AF24 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		908DF8E413F2C2D900C3AF24 /* MainViewController.h */ = {isa = PBXFileReference; path = MainViewController.h; sourceTree = "<group>"; };
+		908DF8E413F2C2D900C3AF24 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		908DF8E513F2C2D900C3AF24 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		908DF8E713F2C2D900C3AF24 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
-		908DF8E913F2C2D900C3AF24 /* FlipsideViewController.h */ = {isa = PBXFileReference; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		908DF8E913F2C2D900C3AF24 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
 		908DF8EA13F2C2D900C3AF24 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
 		908DF8EC13F2C2D900C3AF24 /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
+		908DF8F713F2C4FC00C3AF24 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		908DF8F913F2CC8200C3AF24 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = "../../../../Downloads/Begin_iPhone4_Projects_2011_01_21/11 - AppSettings/icon.png"; sourceTree = "<group>"; };
+		908DF8FA13F2CC8200C3AF24 /* rabbit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rabbit.png; path = "../../../../Downloads/Begin_iPhone4_Projects_2011_01_21/11 - AppSettings/rabbit.png"; sourceTree = "<group>"; };
+		908DF8FB13F2CC8200C3AF24 /* turtle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turtle.png; path = "../../../../Downloads/Begin_iPhone4_Projects_2011_01_21/11 - AppSettings/turtle.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,7 @@
 		908DF8C013F2C2D900C3AF24 = {
 			isa = PBXGroup;
 			children = (
+				908DF8F713F2C4FC00C3AF24 /* Settings.bundle */,
 				908DF8D513F2C2D900C3AF24 /* AppSettings */,
 				908DF8CE13F2C2D900C3AF24 /* Frameworks */,
 				908DF8CC13F2C2D900C3AF24 /* Products */,
@@ -102,6 +111,9 @@
 			isa = PBXGroup;
 			children = (
 				908DF8D713F2C2D900C3AF24 /* AppSettings-Info.plist */,
+				908DF8F913F2CC8200C3AF24 /* icon.png */,
+				908DF8FA13F2CC8200C3AF24 /* rabbit.png */,
+				908DF8FB13F2CC8200C3AF24 /* turtle.png */,
 				908DF8D813F2C2D900C3AF24 /* InfoPlist.strings */,
 				908DF8DB13F2C2D900C3AF24 /* main.m */,
 				908DF8DD13F2C2D900C3AF24 /* AppSettings-Prefix.pch */,
@@ -160,6 +172,10 @@
 				908DF8E313F2C2D900C3AF24 /* MainWindow.xib in Resources */,
 				908DF8E813F2C2D900C3AF24 /* MainView.xib in Resources */,
 				908DF8ED13F2C2D900C3AF24 /* FlipsideView.xib in Resources */,
+				908DF8F813F2C4FC00C3AF24 /* Settings.bundle in Resources */,
+				908DF8FC13F2CC8200C3AF24 /* icon.png in Resources */,
+				908DF8FD13F2CC8200C3AF24 /* rabbit.png in Resources */,
+				908DF8FE13F2CC8200C3AF24 /* turtle.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +299,7 @@
 				908DF8F213F2C2D900C3AF24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

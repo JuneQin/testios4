@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90834D2013F028F900C115B8 /* PresidentList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90834D1F13F028F900C115B8 /* PresidentList.plist */; };
+		9084A9C313F1713F00F339DF /* LanguageListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9084A9C213F1713F00F339DF /* LanguageListController.m */; };
 		90A7CD8F13ED36FC00C73E47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90A7CD8E13ED36FC00C73E47 /* UIKit.framework */; };
 		90A7CD9113ED36FC00C73E47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90A7CD9013ED36FC00C73E47 /* Foundation.framework */; };
 		90A7CD9313ED36FC00C73E47 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90A7CD9213ED36FC00C73E47 /* CoreGraphics.framework */; };
@@ -20,21 +22,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		90834D1F13F028F900C115B8 /* PresidentList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PresidentList.plist; path = "../../../../Downloads/Begin_iPhone4_Projects_2011_01_21/10 - Presidents/PresidentList.plist"; sourceTree = "<group>"; };
+		9084A9C113F1713F00F339DF /* LanguageListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanguageListController.h; sourceTree = "<group>"; };
+		9084A9C213F1713F00F339DF /* LanguageListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LanguageListController.m; sourceTree = "<group>"; };
 		90A7CD8A13ED36FC00C73E47 /* Presidents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Presidents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90A7CD8E13ED36FC00C73E47 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		90A7CD9013ED36FC00C73E47 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		90A7CD9213ED36FC00C73E47 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		90A7CD9613ED36FC00C73E47 /* Presidents-Info.plist */ = {isa = PBXFileReference; path = "Presidents-Info.plist"; sourceTree = "<group>"; };
+		90A7CD9613ED36FC00C73E47 /* Presidents-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Presidents-Info.plist"; sourceTree = "<group>"; };
 		90A7CD9813ED36FC00C73E47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		90A7CD9A13ED36FC00C73E47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		90A7CD9C13ED36FC00C73E47 /* Presidents-Prefix.pch */ = {isa = PBXFileReference; path = "Presidents-Prefix.pch"; sourceTree = "<group>"; };
-		90A7CD9D13ED36FC00C73E47 /* PresidentsAppDelegate.h */ = {isa = PBXFileReference; path = PresidentsAppDelegate.h; sourceTree = "<group>"; };
+		90A7CD9C13ED36FC00C73E47 /* Presidents-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Presidents-Prefix.pch"; sourceTree = "<group>"; };
+		90A7CD9D13ED36FC00C73E47 /* PresidentsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PresidentsAppDelegate.h; sourceTree = "<group>"; };
 		90A7CD9E13ED36FC00C73E47 /* PresidentsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PresidentsAppDelegate.m; sourceTree = "<group>"; };
 		90A7CDA113ED36FC00C73E47 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		90A7CDA313ED36FC00C73E47 /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		90A7CDA313ED36FC00C73E47 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		90A7CDA413ED36FC00C73E47 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		90A7CDA713ED36FC00C73E47 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailView.xib; sourceTree = "<group>"; };
-		90A7CDA913ED36FC00C73E47 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		90A7CDA913ED36FC00C73E47 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		90A7CDAA13ED36FC00C73E47 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +96,8 @@
 				90A7CDA913ED36FC00C73E47 /* RootViewController.h */,
 				90A7CDAA13ED36FC00C73E47 /* RootViewController.m */,
 				90A7CD9513ED36FC00C73E47 /* Supporting Files */,
+				9084A9C113F1713F00F339DF /* LanguageListController.h */,
+				9084A9C213F1713F00F339DF /* LanguageListController.m */,
 			);
 			path = Presidents;
 			sourceTree = "<group>";
@@ -100,6 +107,7 @@
 			children = (
 				90A7CD9613ED36FC00C73E47 /* Presidents-Info.plist */,
 				90A7CD9713ED36FC00C73E47 /* InfoPlist.strings */,
+				90834D1F13F028F900C115B8 /* PresidentList.plist */,
 				90A7CD9A13ED36FC00C73E47 /* main.m */,
 				90A7CD9C13ED36FC00C73E47 /* Presidents-Prefix.pch */,
 			);
@@ -156,6 +164,7 @@
 				90A7CD9913ED36FC00C73E47 /* InfoPlist.strings in Resources */,
 				90A7CDA213ED36FC00C73E47 /* MainWindow.xib in Resources */,
 				90A7CDA813ED36FC00C73E47 /* DetailView.xib in Resources */,
+				90834D2013F028F900C115B8 /* PresidentList.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,6 +179,7 @@
 				90A7CD9F13ED36FC00C73E47 /* PresidentsAppDelegate.m in Sources */,
 				90A7CDA513ED36FC00C73E47 /* DetailViewController.m in Sources */,
 				90A7CDAB13ED36FC00C73E47 /* RootViewController.m in Sources */,
+				9084A9C313F1713F00F339DF /* LanguageListController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +296,7 @@
 				90A7CDB013ED36FC00C73E47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

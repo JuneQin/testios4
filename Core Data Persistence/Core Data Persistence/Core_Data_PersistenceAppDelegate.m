@@ -7,6 +7,7 @@
 //
 
 #import "Core_Data_PersistenceAppDelegate.h"
+#import "PersistenceViewController.h"
 
 @implementation Core_Data_PersistenceAppDelegate
 
@@ -14,10 +15,15 @@
 @synthesize managedObjectContext = __managedObjectContext;
 @synthesize managedObjectModel = __managedObjectModel;
 @synthesize persistentStoreCoordinator = __persistentStoreCoordinator;
+@synthesize rootController;
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    //pyanfield
+    self.window.rootViewController = self.rootController;
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

@@ -26,6 +26,16 @@
 		9035629113E6F21900F15811 /* rowControlsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9035628913E6F21900F15811 /* rowControlsIcon.png */; };
 		9035629413E6F2EE00F15811 /* DisclosureDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9035629313E6F2EE00F15811 /* DisclosureDetailController.m */; };
 		9035629613E6F6CA00F15811 /* DisclosureDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9035629513E6F6CA00F15811 /* DisclosureDetail.xib */; };
+		90B63F0313E98E0400385B19 /* MoveMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B63F0213E98E0400385B19 /* MoveMeController.m */; };
+		90B63F0A13E9984400385B19 /* computers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90B63F0913E9984400385B19 /* computers.plist */; };
+		90B63F0D13E9986B00385B19 /* DeleteMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B63F0C13E9986B00385B19 /* DeleteMeController.m */; };
+		90F2388513EAC90400446133 /* President.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F2388413EAC90400446133 /* President.m */; };
+		90F2388813EACD8000446133 /* Presidents.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90F2388713EACD8000446133 /* Presidents.plist */; };
+		90F2388B13EACDD400446133 /* PresidentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F2388A13EACDD400446133 /* PresidentsViewController.m */; };
+		90F2388E13EACDE900446133 /* PresidentDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F2388D13EACDE900446133 /* PresidentDetailController.m */; };
+		90FA9DD413E8248A0033DFB9 /* DisclosureButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FA9DD313E8248A0033DFB9 /* DisclosureButtonController.m */; };
+		90FA9DD813E83CC80033DFB9 /* CheckListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FA9DD713E83CC80033DFB9 /* CheckListController.m */; };
+		90FA9DDB13E845A40033DFB9 /* RowControlsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FA9DDA13E845A40033DFB9 /* RowControlsController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +65,24 @@
 		9035629213E6F2EE00F15811 /* DisclosureDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisclosureDetailController.h; sourceTree = "<group>"; };
 		9035629313E6F2EE00F15811 /* DisclosureDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisclosureDetailController.m; sourceTree = "<group>"; };
 		9035629513E6F6CA00F15811 /* DisclosureDetail.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DisclosureDetail.xib; sourceTree = "<group>"; };
+		90B63F0113E98E0400385B19 /* MoveMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveMeController.h; sourceTree = "<group>"; };
+		90B63F0213E98E0400385B19 /* MoveMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoveMeController.m; sourceTree = "<group>"; };
+		90B63F0913E9984400385B19 /* computers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = computers.plist; path = "../../../../Downloads/Begin_iPhone4_Projects_2011_01_21/09 - Nav/computers.plist"; sourceTree = "<group>"; };
+		90B63F0B13E9986B00385B19 /* DeleteMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteMeController.h; sourceTree = "<group>"; };
+		90B63F0C13E9986B00385B19 /* DeleteMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteMeController.m; sourceTree = "<group>"; };
+		90F2388313EAC90400446133 /* President.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = President.h; sourceTree = "<group>"; };
+		90F2388413EAC90400446133 /* President.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = President.m; sourceTree = "<group>"; };
+		90F2388713EACD8000446133 /* Presidents.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = Presidents.plist; path = "../../../../Downloads/Begin_iPhone4_Projects_2011_01_21/09 - Nav/Presidents.plist"; sourceTree = "<group>"; };
+		90F2388913EACDD400446133 /* PresidentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresidentsViewController.h; sourceTree = "<group>"; };
+		90F2388A13EACDD400446133 /* PresidentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresidentsViewController.m; sourceTree = "<group>"; };
+		90F2388C13EACDE900446133 /* PresidentDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresidentDetailController.h; sourceTree = "<group>"; };
+		90F2388D13EACDE900446133 /* PresidentDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresidentDetailController.m; sourceTree = "<group>"; };
+		90FA9DD213E8248A0033DFB9 /* DisclosureButtonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisclosureButtonController.h; sourceTree = "<group>"; };
+		90FA9DD313E8248A0033DFB9 /* DisclosureButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisclosureButtonController.m; sourceTree = "<group>"; };
+		90FA9DD613E83CC80033DFB9 /* CheckListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckListController.h; sourceTree = "<group>"; };
+		90FA9DD713E83CC80033DFB9 /* CheckListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckListController.m; sourceTree = "<group>"; };
+		90FA9DD913E845A40033DFB9 /* RowControlsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RowControlsController.h; sourceTree = "<group>"; };
+		90FA9DDA13E845A40033DFB9 /* RowControlsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RowControlsController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +140,22 @@
 				9035629213E6F2EE00F15811 /* DisclosureDetailController.h */,
 				9035629313E6F2EE00F15811 /* DisclosureDetailController.m */,
 				9035629513E6F6CA00F15811 /* DisclosureDetail.xib */,
+				90FA9DD213E8248A0033DFB9 /* DisclosureButtonController.h */,
+				90FA9DD313E8248A0033DFB9 /* DisclosureButtonController.m */,
+				90FA9DD613E83CC80033DFB9 /* CheckListController.h */,
+				90FA9DD713E83CC80033DFB9 /* CheckListController.m */,
+				90FA9DD913E845A40033DFB9 /* RowControlsController.h */,
+				90FA9DDA13E845A40033DFB9 /* RowControlsController.m */,
+				90B63F0113E98E0400385B19 /* MoveMeController.h */,
+				90B63F0213E98E0400385B19 /* MoveMeController.m */,
+				90B63F0B13E9986B00385B19 /* DeleteMeController.h */,
+				90B63F0C13E9986B00385B19 /* DeleteMeController.m */,
+				90F2388313EAC90400446133 /* President.h */,
+				90F2388413EAC90400446133 /* President.m */,
+				90F2388913EACDD400446133 /* PresidentsViewController.h */,
+				90F2388A13EACDD400446133 /* PresidentsViewController.m */,
+				90F2388C13EACDE900446133 /* PresidentDetailController.h */,
+				90F2388D13EACDE900446133 /* PresidentDetailController.m */,
 			);
 			path = Nav;
 			sourceTree = "<group>";
@@ -121,9 +165,11 @@
 			children = (
 				9035628213E6F21900F15811 /* button_down.png */,
 				9035628313E6F21900F15811 /* button_up.png */,
+				90B63F0913E9984400385B19 /* computers.plist */,
 				9035628413E6F21900F15811 /* checkmarkControllerIcon.png */,
 				9035628513E6F21900F15811 /* deleteMeIcon.png */,
 				9035628613E6F21900F15811 /* detailEditIcon.png */,
+				90F2388713EACD8000446133 /* Presidents.plist */,
 				9035628713E6F21900F15811 /* disclosureButtonControllerIcon.png */,
 				9035628813E6F21900F15811 /* moveMeIcon.png */,
 				9035628913E6F21900F15811 /* rowControlsIcon.png */,
@@ -193,6 +239,8 @@
 				9035629013E6F21900F15811 /* moveMeIcon.png in Resources */,
 				9035629113E6F21900F15811 /* rowControlsIcon.png in Resources */,
 				9035629613E6F6CA00F15811 /* DisclosureDetail.xib in Resources */,
+				90B63F0A13E9984400385B19 /* computers.plist in Resources */,
+				90F2388813EACD8000446133 /* Presidents.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +256,14 @@
 				9035627E13E6DFD900F15811 /* FirstLevelViewController.m in Sources */,
 				9035628113E6E44B00F15811 /* SecondLevelViewController.m in Sources */,
 				9035629413E6F2EE00F15811 /* DisclosureDetailController.m in Sources */,
+				90FA9DD413E8248A0033DFB9 /* DisclosureButtonController.m in Sources */,
+				90FA9DD813E83CC80033DFB9 /* CheckListController.m in Sources */,
+				90FA9DDB13E845A40033DFB9 /* RowControlsController.m in Sources */,
+				90B63F0313E98E0400385B19 /* MoveMeController.m in Sources */,
+				90B63F0D13E9986B00385B19 /* DeleteMeController.m in Sources */,
+				90F2388513EAC90400446133 /* President.m in Sources */,
+				90F2388B13EACDD400446133 /* PresidentsViewController.m in Sources */,
+				90F2388E13EACDE900446133 /* PresidentDetailController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +373,7 @@
 				9035627813E6DD4700F15811 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

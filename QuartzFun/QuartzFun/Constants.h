@@ -6,9 +6,19 @@
 //  Copyright 2011年 __MyCompanyName__. All rights reserved.
 //
 
-#ifndef QuartzFun_Constants_h
-#define QuartzFun_Constants_h
+typedef enum{
+    kLineShap = 0,
+    kRectShape,
+    kEllipseShape,
+    kImageShape
+} ShapeType;
 
+typedef enum{
+    kRedColorTab = 0,
+    kBlueColorTab,
+    kYellowColorTab,
+    kGreenColorTab,
+    kRandomColorTab
+} ColorTabIndex;
 
-
-#endif
+#define degreesToRadian(x) (M_PI*(x)/180.0)

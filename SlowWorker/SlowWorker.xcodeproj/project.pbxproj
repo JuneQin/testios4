@@ -23,14 +23,14 @@
 		90977CC81403D34100129781 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		90977CCA1403D34100129781 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		90977CCC1403D34100129781 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		90977CD01403D34100129781 /* SlowWorker-Info.plist */ = {isa = PBXFileReference; path = "SlowWorker-Info.plist"; sourceTree = "<group>"; };
+		90977CD01403D34100129781 /* SlowWorker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SlowWorker-Info.plist"; sourceTree = "<group>"; };
 		90977CD21403D34100129781 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		90977CD41403D34100129781 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		90977CD61403D34100129781 /* SlowWorker-Prefix.pch */ = {isa = PBXFileReference; path = "SlowWorker-Prefix.pch"; sourceTree = "<group>"; };
-		90977CD71403D34100129781 /* SlowWorkerAppDelegate.h */ = {isa = PBXFileReference; path = SlowWorkerAppDelegate.h; sourceTree = "<group>"; };
+		90977CD61403D34100129781 /* SlowWorker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SlowWorker-Prefix.pch"; sourceTree = "<group>"; };
+		90977CD71403D34100129781 /* SlowWorkerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlowWorkerAppDelegate.h; sourceTree = "<group>"; };
 		90977CD81403D34100129781 /* SlowWorkerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlowWorkerAppDelegate.m; sourceTree = "<group>"; };
 		90977CDB1403D34100129781 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		90977CDD1403D34100129781 /* SlowWorkerViewController.h */ = {isa = PBXFileReference; path = SlowWorkerViewController.h; sourceTree = "<group>"; };
+		90977CDD1403D34100129781 /* SlowWorkerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlowWorkerViewController.h; sourceTree = "<group>"; };
 		90977CDE1403D34100129781 /* SlowWorkerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlowWorkerViewController.m; sourceTree = "<group>"; };
 		90977CE11403D34100129781 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SlowWorkerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */

@@ -7,8 +7,13 @@
 //
 
 #import "LanguageListController.h"
+#import "DetailViewController.h"
 
 @implementation LanguageListController
+
+@synthesize languageCodes;
+@synthesize languageNames;
+@synthesize detailViewController;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -32,6 +37,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    //pyanfield
+    self.languageNames = [NSArray arrayWithObjects:@"English",@"French",@"German",@"Spanish", nil];
+    self.languageCodes = [NSArray arrayWithObjects:@"en",@"fr",@"de",@"es", nil];
+    self.clearsSelectionOnViewWillAppear = NO;
+    self.contentSizeForViewInPopover = CGSizeMake(320.0,[self.languageCodes count]*44.0);
+    
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -43,8 +55,19 @@
 - (void)viewDidUnload
 {
     [super viewDidUnload];
+    self.detailViewController = nil;
+    self.languageCodes = nil;
+    self.languageNames = nil;
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
+}
+
+- (void)dealloc
+{
+    [detailViewController release];
+    [languageCodes release];
+    [languageNames release];
+    [super dealloc];
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -79,14 +102,20 @@
 {
 #warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 0;
+    //return 0;
+    
+    //pyanfield
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
 #warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    //return 0;
+    
+    //pyanfield
+    return [self.languageCodes count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -99,6 +128,8 @@
     }
     
     // Configure the cell...
+    //pyanfield
+    cell.textLabel.text = [languageNames objectAtIndex:[indexPath row]];
     
     return cell;
 }
@@ -154,6 +185,9 @@
      [self.navigationController pushViewController:detailViewController animated:YES];
      [detailViewController release];
      */
+    
+    //pyanfield
+    detailViewController.languageString = [self.languageCodes objectAtIndex:[indexPath row]];
 }
 
 @end

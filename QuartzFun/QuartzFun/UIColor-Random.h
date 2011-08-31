@@ -6,8 +6,10 @@
 //  Copyright 2011年 __MyCompanyName__. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface UIColor_Random : NSObject
+@interface UIColor (UIColor_Random)
+
++ (UIColor *)randomColor;
 
 @end

@@ -16,4 +16,13 @@
 
 @property (nonatomic, retain) IBOutlet UILabel *detailDescriptionLabel;
 
+//pyanfield
+@property (nonatomic, retain) IBOutlet UIWebView *webView;
+
+@property (nonatomic, retain) IBOutlet UIBarButtonItem *languageButton;
+@property (nonatomic, retain) UIPopoverController *languagePopoverController;
+@property (nonatomic, copy) NSString *languageString;
+
+- (IBAction)touchLanguageButton;
+
 @end

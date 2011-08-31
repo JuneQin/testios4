@@ -7,7 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "SecondLevelViewController.h"
 
-@interface PresidentsViewController : NSObject
-
+@interface PresidentsViewController : SecondLevelViewController
+{
+    NSMutableArray *list;
+}
+@property (nonatomic, retain) NSMutableArray *list;
 @end

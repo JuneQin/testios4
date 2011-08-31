@@ -8,28 +8,64 @@
 
 #import "FirstLevelViewController.h"
 #import "SecondLevelViewController.h"
+#import "DisclosureButtonController.h"
+#import "CheckListController.h"
+#import "RowControlsController.h"
+#import "MoveMeController.h"
+#import "DeleteMeController.h"
+#import "PresidentsViewController.h"
 
 @implementation FirstLevelViewController
 @synthesize controllers;
-
-
-
-//- (id)init
-//{
-//    self = [super init];
-//    if (self) {
-//        // Initialization code here.
-//    }
-//    
-//    return self;
-//}
-//
-//
 
 - (void)viewDidLoad
 {
     self.title = @"First Level";
     NSMutableArray *array = [[NSMutableArray alloc] init];
+    
+    //below are the Table Items on the first level view
+    //Disclosure button : on the first level, the first button
+    DisclosureButtonController *disclosureButtonController = [[DisclosureButtonController alloc] initWithStyle:UITableViewStylePlain];
+    disclosureButtonController.title = @"Disclosure Buttons";
+    disclosureButtonController.rowImage = [UIImage imageNamed:@"disclosureButtonControllerIcon.png"];
+    [array addObject:disclosureButtonController];
+    [disclosureButtonController release];
+    
+    //check list
+    CheckListController *checkListController = [[CheckListController alloc] initWithStyle:UITableViewStylePlain];
+    checkListController.title = @"Check one";
+    checkListController.rowImage = [UIImage imageNamed:@"checkmarkControllerIcon.png"];
+    [array addObject:checkListController];
+    [checkListController release];
+    
+    //Table Row Controller
+    RowControlsController *rowControlsController = [[RowControlsController alloc] initWithStyle:UITableViewStylePlain];
+    rowControlsController.title = @"Row Controls";
+    rowControlsController.rowImage = [UIImage imageNamed:@"rowControlsIcon.png"];
+    [array addObject:rowControlsController];
+    [rowControlsController release];
+    
+    //Move me
+    MoveMeController *moveMeController = [[MoveMeController alloc] initWithStyle:UITableViewStylePlain];
+    moveMeController.title = @"Move me";
+    moveMeController.rowImage = [UIImage imageNamed:@"moveMeIcon.png"];
+    [array addObject:moveMeController];
+    [moveMeController release];
+    
+    //Delete me
+    DeleteMeController *deleteMeController = [[DeleteMeController alloc] initWithStyle:UITableViewStylePlain];
+    deleteMeController.title = @"Delete Me";
+    deleteMeController.rowImage = [UIImage imageNamed:@"deleteMeIcon.png"];
+    [array addObject:deleteMeController];
+    [deleteMeController release];
+    
+    //President view/edit
+    PresidentsViewController *presidentsViewController = [[PresidentsViewController alloc] initWithStyle:UITableViewStylePlain];
+    presidentsViewController.title = @"Detail Edit";
+    presidentsViewController.rowImage = [UIImage imageNamed:@"detailEditIcon.png"];
+    [array addObject:presidentsViewController];
+    [presidentsViewController release];
+    
     self.controllers = array;
     [array release];
     [super viewDidLoad];

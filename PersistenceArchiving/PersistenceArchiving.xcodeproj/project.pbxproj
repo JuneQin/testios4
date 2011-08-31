@@ -16,6 +16,7 @@
 		90499E3B13FC0BD5003B5A97 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90499E3913FC0BD5003B5A97 /* MainWindow.xib */; };
 		90499E3E13FC0BD5003B5A97 /* PersistenceArchivingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90499E3D13FC0BD5003B5A97 /* PersistenceArchivingViewController.m */; };
 		90499E4113FC0BD5003B5A97 /* PersistenceArchivingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90499E3F13FC0BD5003B5A97 /* PersistenceArchivingViewController.xib */; };
+		90499E4913FC0C33003B5A97 /* FourLines.m in Sources */ = {isa = PBXBuildFile; fileRef = 90499E4813FC0C33003B5A97 /* FourLines.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +24,18 @@
 		90499E2713FC0BD5003B5A97 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		90499E2913FC0BD5003B5A97 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		90499E2B13FC0BD5003B5A97 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		90499E2F13FC0BD5003B5A97 /* PersistenceArchiving-Info.plist */ = {isa = PBXFileReference; path = "PersistenceArchiving-Info.plist"; sourceTree = "<group>"; };
+		90499E2F13FC0BD5003B5A97 /* PersistenceArchiving-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PersistenceArchiving-Info.plist"; sourceTree = "<group>"; };
 		90499E3113FC0BD5003B5A97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		90499E3313FC0BD5003B5A97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		90499E3513FC0BD5003B5A97 /* PersistenceArchiving-Prefix.pch */ = {isa = PBXFileReference; path = "PersistenceArchiving-Prefix.pch"; sourceTree = "<group>"; };
-		90499E3613FC0BD5003B5A97 /* PersistenceArchivingAppDelegate.h */ = {isa = PBXFileReference; path = PersistenceArchivingAppDelegate.h; sourceTree = "<group>"; };
+		90499E3513FC0BD5003B5A97 /* PersistenceArchiving-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PersistenceArchiving-Prefix.pch"; sourceTree = "<group>"; };
+		90499E3613FC0BD5003B5A97 /* PersistenceArchivingAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersistenceArchivingAppDelegate.h; sourceTree = "<group>"; };
 		90499E3713FC0BD5003B5A97 /* PersistenceArchivingAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersistenceArchivingAppDelegate.m; sourceTree = "<group>"; };
 		90499E3A13FC0BD5003B5A97 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		90499E3C13FC0BD5003B5A97 /* PersistenceArchivingViewController.h */ = {isa = PBXFileReference; path = PersistenceArchivingViewController.h; sourceTree = "<group>"; };
+		90499E3C13FC0BD5003B5A97 /* PersistenceArchivingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersistenceArchivingViewController.h; sourceTree = "<group>"; };
 		90499E3D13FC0BD5003B5A97 /* PersistenceArchivingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersistenceArchivingViewController.m; sourceTree = "<group>"; };
 		90499E4013FC0BD5003B5A97 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PersistenceArchivingViewController.xib; sourceTree = "<group>"; };
+		90499E4713FC0C33003B5A97 /* FourLines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourLines.h; sourceTree = "<group>"; };
+		90499E4813FC0C33003B5A97 /* FourLines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourLines.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				90499E3D13FC0BD5003B5A97 /* PersistenceArchivingViewController.m */,
 				90499E3F13FC0BD5003B5A97 /* PersistenceArchivingViewController.xib */,
 				90499E2E13FC0BD5003B5A97 /* Supporting Files */,
+				90499E4713FC0C33003B5A97 /* FourLines.h */,
+				90499E4813FC0C33003B5A97 /* FourLines.m */,
 			);
 			path = PersistenceArchiving;
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 				90499E3413FC0BD5003B5A97 /* main.m in Sources */,
 				90499E3813FC0BD5003B5A97 /* PersistenceArchivingAppDelegate.m in Sources */,
 				90499E3E13FC0BD5003B5A97 /* PersistenceArchivingViewController.m in Sources */,
+				90499E4913FC0C33003B5A97 /* FourLines.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

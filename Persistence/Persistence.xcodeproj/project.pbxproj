@@ -23,14 +23,14 @@
 		90499DF813FBFAFC003B5A97 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		90499DFA13FBFAFC003B5A97 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		90499DFC13FBFAFC003B5A97 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		90499E0013FBFAFC003B5A97 /* Persistence-Info.plist */ = {isa = PBXFileReference; path = "Persistence-Info.plist"; sourceTree = "<group>"; };
+		90499E0013FBFAFC003B5A97 /* Persistence-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Persistence-Info.plist"; sourceTree = "<group>"; };
 		90499E0213FBFAFC003B5A97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		90499E0413FBFAFC003B5A97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		90499E0613FBFAFC003B5A97 /* Persistence-Prefix.pch */ = {isa = PBXFileReference; path = "Persistence-Prefix.pch"; sourceTree = "<group>"; };
-		90499E0713FBFAFC003B5A97 /* PersistenceAppDelegate.h */ = {isa = PBXFileReference; path = PersistenceAppDelegate.h; sourceTree = "<group>"; };
+		90499E0613FBFAFC003B5A97 /* Persistence-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Persistence-Prefix.pch"; sourceTree = "<group>"; };
+		90499E0713FBFAFC003B5A97 /* PersistenceAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersistenceAppDelegate.h; sourceTree = "<group>"; };
 		90499E0813FBFAFC003B5A97 /* PersistenceAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersistenceAppDelegate.m; sourceTree = "<group>"; };
 		90499E0B13FBFAFC003B5A97 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		90499E0D13FBFAFC003B5A97 /* PersistenceViewController.h */ = {isa = PBXFileReference; path = PersistenceViewController.h; sourceTree = "<group>"; };
+		90499E0D13FBFAFC003B5A97 /* PersistenceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersistenceViewController.h; sourceTree = "<group>"; };
 		90499E0E13FBFAFC003B5A97 /* PersistenceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersistenceViewController.m; sourceTree = "<group>"; };
 		90499E1113FBFAFC003B5A97 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PersistenceViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */

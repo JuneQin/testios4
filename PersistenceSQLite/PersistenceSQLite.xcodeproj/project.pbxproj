@@ -16,6 +16,7 @@
 		90F76A0D13FD44D7001877D4 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90F76A0B13FD44D7001877D4 /* MainWindow.xib */; };
 		90F76A1013FD44D7001877D4 /* PersistenceSQLiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F76A0F13FD44D7001877D4 /* PersistenceSQLiteViewController.m */; };
 		90F76A1313FD44D7001877D4 /* PersistenceSQLiteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90F76A1113FD44D7001877D4 /* PersistenceSQLiteViewController.xib */; };
+		90F76A1A13FD4533001877D4 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F76A1913FD4533001877D4 /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +24,17 @@
 		90F769F913FD44D7001877D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		90F769FB13FD44D7001877D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		90F769FD13FD44D7001877D4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		90F76A0113FD44D7001877D4 /* PersistenceSQLite-Info.plist */ = {isa = PBXFileReference; path = "PersistenceSQLite-Info.plist"; sourceTree = "<group>"; };
+		90F76A0113FD44D7001877D4 /* PersistenceSQLite-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PersistenceSQLite-Info.plist"; sourceTree = "<group>"; };
 		90F76A0313FD44D7001877D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		90F76A0513FD44D7001877D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		90F76A0713FD44D7001877D4 /* PersistenceSQLite-Prefix.pch */ = {isa = PBXFileReference; path = "PersistenceSQLite-Prefix.pch"; sourceTree = "<group>"; };
-		90F76A0813FD44D7001877D4 /* PersistenceSQLiteAppDelegate.h */ = {isa = PBXFileReference; path = PersistenceSQLiteAppDelegate.h; sourceTree = "<group>"; };
+		90F76A0713FD44D7001877D4 /* PersistenceSQLite-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PersistenceSQLite-Prefix.pch"; sourceTree = "<group>"; };
+		90F76A0813FD44D7001877D4 /* PersistenceSQLiteAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersistenceSQLiteAppDelegate.h; sourceTree = "<group>"; };
 		90F76A0913FD44D7001877D4 /* PersistenceSQLiteAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersistenceSQLiteAppDelegate.m; sourceTree = "<group>"; };
 		90F76A0C13FD44D7001877D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		90F76A0E13FD44D7001877D4 /* PersistenceSQLiteViewController.h */ = {isa = PBXFileReference; path = PersistenceSQLiteViewController.h; sourceTree = "<group>"; };
+		90F76A0E13FD44D7001877D4 /* PersistenceSQLiteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersistenceSQLiteViewController.h; sourceTree = "<group>"; };
 		90F76A0F13FD44D7001877D4 /* PersistenceSQLiteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersistenceSQLiteViewController.m; sourceTree = "<group>"; };
 		90F76A1213FD44D7001877D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PersistenceSQLiteViewController.xib; sourceTree = "<group>"; };
+		90F76A1913FD4533001877D4 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90F76A1A13FD4533001877D4 /* libsqlite3.dylib in Frameworks */,
 				90F769FA13FD44D7001877D4 /* UIKit.framework in Frameworks */,
 				90F769FC13FD44D7001877D4 /* Foundation.framework in Frameworks */,
 				90F769FE13FD44D7001877D4 /* CoreGraphics.framework in Frameworks */,
@@ -52,6 +55,7 @@
 		90F769EA13FD44D7001877D4 = {
 			isa = PBXGroup;
 			children = (
+				90F76A1913FD4533001877D4 /* libsqlite3.dylib */,
 				90F769FF13FD44D7001877D4 /* PersistenceSQLite */,
 				90F769F813FD44D7001877D4 /* Frameworks */,
 				90F769F613FD44D7001877D4 /* Products */,

@@ -6,8 +6,17 @@
 //  Copyright 2011年 __MyCompanyName__. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "SecondLevelViewController.h"
 
-@interface DisclosureButtonController : NSObject
+@class DisclosureDetailController;
+
+@interface DisclosureButtonController : SecondLevelViewController
+{
+    NSArray *list;
+    DisclosureDetailController *childController;
+}
+
+@property (nonatomic, retain) NSArray *list;
 
 @end

@@ -13,12 +13,19 @@
 @implementation RootViewController
 		
 @synthesize detailViewController;
+@synthesize presidents;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     self.clearsSelectionOnViewWillAppear = NO;
+    //pyanfield : provide the display for a popover controller. at least the 320  pixels wide.
     self.contentSizeForViewInPopover = CGSizeMake(320.0, 600.0);
+    
+    //pyanfield
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"PresidentList" ofType:@"plist"];
+    NSDictionary *presidentInfo = [NSDictionary dictionaryWithContentsOfFile:path];
+    self.presidents = [presidentInfo objectForKey:@"presidents"];
 }
 
 		
@@ -55,8 +62,8 @@
 		
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 0;
-    		
+    //return 0;
+    return [self.presidents count];
 }
 
 		
@@ -70,7 +77,10 @@
     }
 
     // Configure the cell.
-    		
+    //pyanfield
+    NSDictionary *president = [self.presidents objectAtIndex:indexPath.row];
+    cell.textLabel.text = [president objectForKey:@"name"];
+    
     return cell;
 }
 
@@ -116,6 +126,12 @@
      [self.navigationController pushViewController:detailViewController animated:YES];
      [detailViewController release];
      */
+    
+    //pyanfield 
+    NSDictionary *president = [self.presidents objectAtIndex:indexPath.row];
+    NSString *urlString = [president objectForKey:@"url"];
+    detailViewController.detailItem = urlString;
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -130,10 +146,13 @@
 {
     // Relinquish ownership of anything that can be recreated in viewDidLoad or on demand.
     // For example: self.myOutlet = nil;
+    
+    self.presidents = nil;
 }
 
 - (void)dealloc
 {
+    [presidents release];
     [detailViewController release];
     [super dealloc];
 }

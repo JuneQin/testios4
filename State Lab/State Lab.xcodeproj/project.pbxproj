@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		902460EE140540A0004DC410 /* smiley.png in Resources */ = {isa = PBXBuildFile; fileRef = 902460ED140540A0004DC410 /* smiley.png */; };
 		908C5194140522EF009B2D94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908C5193140522EF009B2D94 /* UIKit.framework */; };
 		908C5196140522EF009B2D94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908C5195140522EF009B2D94 /* Foundation.framework */; };
 		908C5198140522EF009B2D94 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908C5197140522EF009B2D94 /* CoreGraphics.framework */; };
@@ -19,18 +20,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		902460ED140540A0004DC410 /* smiley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smiley.png; path = "../../../../Downloads/Begin_iPhone4_Projects_2011_01_21/13 - State Lab/smiley.png"; sourceTree = "<group>"; };
 		908C518F140522EF009B2D94 /* State Lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "State Lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		908C5193140522EF009B2D94 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		908C5195140522EF009B2D94 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		908C5197140522EF009B2D94 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		908C519B140522EF009B2D94 /* State Lab-Info.plist */ = {isa = PBXFileReference; path = "State Lab-Info.plist"; sourceTree = "<group>"; };
+		908C519B140522EF009B2D94 /* State Lab-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "State Lab-Info.plist"; sourceTree = "<group>"; };
 		908C519D140522EF009B2D94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		908C519F140522EF009B2D94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		908C51A1140522EF009B2D94 /* State Lab-Prefix.pch */ = {isa = PBXFileReference; path = "State Lab-Prefix.pch"; sourceTree = "<group>"; };
-		908C51A2140522EF009B2D94 /* State_LabAppDelegate.h */ = {isa = PBXFileReference; path = State_LabAppDelegate.h; sourceTree = "<group>"; };
+		908C51A1140522EF009B2D94 /* State Lab-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "State Lab-Prefix.pch"; sourceTree = "<group>"; };
+		908C51A2140522EF009B2D94 /* State_LabAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = State_LabAppDelegate.h; sourceTree = "<group>"; };
 		908C51A3140522EF009B2D94 /* State_LabAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = State_LabAppDelegate.m; sourceTree = "<group>"; };
 		908C51A6140522EF009B2D94 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		908C51A8140522EF009B2D94 /* State_LabViewController.h */ = {isa = PBXFileReference; path = State_LabViewController.h; sourceTree = "<group>"; };
+		908C51A8140522EF009B2D94 /* State_LabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = State_LabViewController.h; sourceTree = "<group>"; };
 		908C51A9140522EF009B2D94 /* State_LabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = State_LabViewController.m; sourceTree = "<group>"; };
 		908C51AC140522EF009B2D94 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/State_LabViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				908C519B140522EF009B2D94 /* State Lab-Info.plist */,
+				902460ED140540A0004DC410 /* smiley.png */,
 				908C519C140522EF009B2D94 /* InfoPlist.strings */,
 				908C519F140522EF009B2D94 /* main.m */,
 				908C51A1140522EF009B2D94 /* State Lab-Prefix.pch */,
@@ -151,6 +154,7 @@
 				908C519E140522EF009B2D94 /* InfoPlist.strings in Resources */,
 				908C51A7140522EF009B2D94 /* MainWindow.xib in Resources */,
 				908C51AD140522EF009B2D94 /* State_LabViewController.xib in Resources */,
+				902460EE140540A0004DC410 /* smiley.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +285,7 @@
 				908C51B2140522EF009B2D94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

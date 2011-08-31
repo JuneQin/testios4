@@ -12,15 +12,7 @@
 
 @synthesize label;
 @synthesize message;
-//- (id)init
-//{
-//    self = [super init];
-//    if (self) {
-//        // Initialization code here.
-//    }
-//    
-//    return self;
-//}
+
 - (void)viewWillAppear:(BOOL)animated
 {
     label.text = message;

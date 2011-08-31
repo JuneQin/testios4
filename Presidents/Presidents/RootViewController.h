@@ -14,4 +14,6 @@
 
 @property (nonatomic, retain) IBOutlet DetailViewController *detailViewController;
 
+@property (nonatomic, retain) NSArray *presidents;
+
 @end
