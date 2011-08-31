@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		903F3992140E852F005A573C /* OpenGLES2DView.m in Sources */ = {isa = PBXBuildFile; fileRef = 903F398F140E852F005A573C /* OpenGLES2DView.m */; };
+		903F3993140E852F005A573C /* Texture2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 903F3991140E852F005A573C /* Texture2D.m */; };
 		90DD1B1F140E62C1008FC657 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90DD1B1E140E62C1008FC657 /* UIKit.framework */; };
 		90DD1B21140E62C1008FC657 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90DD1B20140E62C1008FC657 /* Foundation.framework */; };
 		90DD1B23140E62C1008FC657 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90DD1B22140E62C1008FC657 /* CoreGraphics.framework */; };
@@ -21,12 +23,14 @@
 		90DD1B4E140E65DB008FC657 /* GLFunView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DD1B4D140E65DB008FC657 /* GLFunView.m */; };
 		90DD1B63140E7CB5008FC657 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90DD1B62140E7CB5008FC657 /* OpenGLES.framework */; };
 		90DD1B65140E7CC0008FC657 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90DD1B64140E7CC0008FC657 /* QuartzCore.framework */; };
-		90DD1B6F140E7FF3008FC657 /* OpenGLES2DView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DD1B6C140E7FF3008FC657 /* OpenGLES2DView.m */; };
-		90DD1B70140E7FF3008FC657 /* Texture2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DD1B6E140E7FF3008FC657 /* Texture2D.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		903F398C140E830B005A573C /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = "../../../../Downloads/Begin_iPhone4_Projects_2011_01_21/14 - GLFun/Classes/Constants.h"; sourceTree = "<group>"; };
+		903F398D140E852F005A573C /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		903F398E140E852F005A573C /* OpenGLES2DView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLES2DView.h; sourceTree = "<group>"; };
+		903F398F140E852F005A573C /* OpenGLES2DView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLES2DView.m; sourceTree = "<group>"; };
+		903F3990140E852F005A573C /* Texture2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texture2D.h; sourceTree = "<group>"; };
+		903F3991140E852F005A573C /* Texture2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Texture2D.m; sourceTree = "<group>"; };
 		90DD1B1A140E62C1008FC657 /* GLFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90DD1B1E140E62C1008FC657 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		90DD1B20140E62C1008FC657 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -48,10 +52,6 @@
 		90DD1B4D140E65DB008FC657 /* GLFunView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLFunView.m; sourceTree = "<group>"; };
 		90DD1B62140E7CB5008FC657 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		90DD1B64140E7CC0008FC657 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		90DD1B6B140E7FF3008FC657 /* OpenGLES2DView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenGLES2DView.h; path = "../../../../Downloads/Begin_iPhone4_Projects_2011_01_21/14 - GLFun/Classes/OpenGLES2DView.h"; sourceTree = "<group>"; };
-		90DD1B6C140E7FF3008FC657 /* OpenGLES2DView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OpenGLES2DView.m; path = "../../../../Downloads/Begin_iPhone4_Projects_2011_01_21/14 - GLFun/Classes/OpenGLES2DView.m"; sourceTree = "<group>"; };
-		90DD1B6D140E7FF3008FC657 /* Texture2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Texture2D.h; path = "../../../../Downloads/Begin_iPhone4_Projects_2011_01_21/14 - GLFun/Classes/Texture2D.h"; sourceTree = "<group>"; };
-		90DD1B6E140E7FF3008FC657 /* Texture2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Texture2D.m; path = "../../../../Downloads/Begin_iPhone4_Projects_2011_01_21/14 - GLFun/Classes/Texture2D.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,11 +102,11 @@
 		90DD1B24140E62C1008FC657 /* GLFun */ = {
 			isa = PBXGroup;
 			children = (
-				903F398C140E830B005A573C /* Constants.h */,
-				90DD1B6B140E7FF3008FC657 /* OpenGLES2DView.h */,
-				90DD1B6C140E7FF3008FC657 /* OpenGLES2DView.m */,
-				90DD1B6D140E7FF3008FC657 /* Texture2D.h */,
-				90DD1B6E140E7FF3008FC657 /* Texture2D.m */,
+				903F398D140E852F005A573C /* Constants.h */,
+				903F398E140E852F005A573C /* OpenGLES2DView.h */,
+				903F398F140E852F005A573C /* OpenGLES2DView.m */,
+				903F3990140E852F005A573C /* Texture2D.h */,
+				903F3991140E852F005A573C /* Texture2D.m */,
 				90DD1B2D140E62C1008FC657 /* GLFunAppDelegate.h */,
 				90DD1B2E140E62C1008FC657 /* GLFunAppDelegate.m */,
 				90DD1B30140E62C1008FC657 /* MainWindow.xib */,
@@ -200,8 +200,8 @@
 				90DD1B35140E62C1008FC657 /* GLFunViewController.m in Sources */,
 				90DD1B41140E630F008FC657 /* UIColor-Random.m in Sources */,
 				90DD1B4E140E65DB008FC657 /* GLFunView.m in Sources */,
-				90DD1B6F140E7FF3008FC657 /* OpenGLES2DView.m in Sources */,
-				90DD1B70140E7FF3008FC657 /* Texture2D.m in Sources */,
+				903F3992140E852F005A573C /* OpenGLES2DView.m in Sources */,
+				903F3993140E852F005A573C /* Texture2D.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
